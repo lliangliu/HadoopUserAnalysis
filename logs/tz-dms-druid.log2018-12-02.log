@@ -1,0 +1,495 @@
+[druid] 2018-12-02 21:55:15,200 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2018-12-02 21:55:15,243 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2018-12-02 21:55:15,411 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+   [druid] 2018-12-02 21:55:15,568 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+   [druid] 2018-12-02 21:55:15,892 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2018-12-02 21:55:18,682 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2018-12-02 21:55:18,715 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Running job: job_local66518182_0001
+   [druid] 2018-12-02 21:55:18,730 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2018-12-02 21:55:18,819 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2018-12-02 21:55:18,820 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local66518182_0001_m_000000_0
+   [druid] 2018-12-02 21:55:18,917 [pool-4-thread-1] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 21:55:18,982 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 21:55:18,993 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: hdfs://hadoop01:8020/ods/11/11/part-m-00000:0+249633
+   [druid] 2018-12-02 21:55:19,021 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2018-12-02 21:55:19,027 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - io.sort.mb = 100
+   [druid] 2018-12-02 21:55:19,112 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - data buffer = 79691776/99614720
+   [druid] 2018-12-02 21:55:19,112 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - record buffer = 262144/327680
+   [druid] 2018-12-02 21:55:19,745 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 0% reduce 0%
+   [druid] 2018-12-02 21:55:20,550 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 21:55:20,567 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2018-12-02 21:55:20,788 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Finished spill 0
+   [druid] 2018-12-02 21:55:20,796 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local66518182_0001_m_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 21:55:20,831 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 21:55:20,832 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local66518182_0001_m_000000_0' done.
+   [druid] 2018-12-02 21:55:20,832 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Finishing task: attempt_local66518182_0001_m_000000_0
+   [druid] 2018-12-02 21:55:20,832 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Map task executor complete.
+   [druid] 2018-12-02 21:55:20,872 [Thread-4       ] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 21:55:20,907 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 21:55:20,908 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 21:55:20,967 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Merging 1 sorted segments
+   [druid] 2018-12-02 21:55:21,010 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Down to the last merge-pass, with 1 segments left of total size: 4098 bytes
+   [druid] 2018-12-02 21:55:21,011 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 21:55:21,749 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 0%
+   [druid] 2018-12-02 21:55:22,902 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local66518182_0001_r_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 21:55:22,903 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - reduce > reduce
+   [druid] 2018-12-02 21:55:22,904 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local66518182_0001_r_000000_0' done.
+   [druid] 2018-12-02 21:55:22,907 [Thread-4       ] WARN  lib.output.FileOutputCommitter {1} - Output path is null in cleanup
+   [druid] 2018-12-02 21:55:23,753 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 100%
+   [druid] 2018-12-02 21:55:23,753 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Job complete: job_local66518182_0001
+   [druid] 2018-12-02 21:55:23,816 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Counters: 22
+   [druid] 2018-12-02 21:55:23,817 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   File System Counters
+   [druid] 2018-12-02 21:55:23,817 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes read=4466
+   [druid] 2018-12-02 21:55:23,817 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes written=378400
+   [druid] 2018-12-02 21:55:23,818 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of read operations=0
+   [druid] 2018-12-02 21:55:23,818 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of large read operations=0
+   [druid] 2018-12-02 21:55:23,818 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of write operations=0
+   [druid] 2018-12-02 21:55:23,818 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes read=499266
+   [druid] 2018-12-02 21:55:23,818 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes written=0
+   [druid] 2018-12-02 21:55:23,822 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of read operations=10
+   [druid] 2018-12-02 21:55:23,822 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of large read operations=0
+   [druid] 2018-12-02 21:55:23,823 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of write operations=0
+   [druid] 2018-12-02 21:55:23,823 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   Map-Reduce Framework
+   [druid] 2018-12-02 21:55:23,823 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map input records=549
+   [druid] 2018-12-02 21:55:23,824 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output records=32
+   [druid] 2018-12-02 21:55:23,824 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output bytes=4032
+   [druid] 2018-12-02 21:55:23,824 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Input split bytes=108
+   [druid] 2018-12-02 21:55:23,824 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine input records=0
+   [druid] 2018-12-02 21:55:23,825 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine output records=0
+   [druid] 2018-12-02 21:55:23,825 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input groups=2
+   [druid] 2018-12-02 21:55:23,825 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce shuffle bytes=0
+   [druid] 2018-12-02 21:55:23,826 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input records=32
+   [druid] 2018-12-02 21:55:23,826 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce output records=2
+   [druid] 2018-12-02 21:55:23,826 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Spilled Records=64
+   [druid] 2018-12-02 21:55:23,827 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Total committed heap usage (bytes)=384827392
+   [druid] 2018-12-02 22:09:17,432 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2018-12-02 22:09:17,435 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2018-12-02 22:09:17,471 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+   [druid] 2018-12-02 22:09:17,517 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+   [druid] 2018-12-02 22:09:17,597 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2018-12-02 22:09:17,976 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Running job: job_local222468383_0001
+   [druid] 2018-12-02 22:09:17,978 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2018-12-02 22:09:17,985 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2018-12-02 22:09:17,999 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2018-12-02 22:09:18,001 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local222468383_0001_m_000000_0
+   [druid] 2018-12-02 22:09:18,030 [pool-4-thread-1] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 22:09:18,055 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 22:09:18,061 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: hdfs://hadoop01:8020/ods/11/11/part-m-00000:0+249633
+   [druid] 2018-12-02 22:09:18,071 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2018-12-02 22:09:18,075 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - io.sort.mb = 100
+   [druid] 2018-12-02 22:09:18,141 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - data buffer = 79691776/99614720
+   [druid] 2018-12-02 22:09:18,142 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - record buffer = 262144/327680
+   [druid] 2018-12-02 22:09:18,978 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 0% reduce 0%
+   [druid] 2018-12-02 22:09:19,381 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 22:09:19,385 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2018-12-02 22:09:19,407 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Finished spill 0
+   [druid] 2018-12-02 22:09:19,412 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local222468383_0001_m_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 22:09:19,425 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 22:09:19,425 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local222468383_0001_m_000000_0' done.
+   [druid] 2018-12-02 22:09:19,426 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Finishing task: attempt_local222468383_0001_m_000000_0
+   [druid] 2018-12-02 22:09:19,426 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Map task executor complete.
+   [druid] 2018-12-02 22:09:19,430 [Thread-4       ] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 22:09:19,444 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 22:09:19,444 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 22:09:19,449 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Merging 1 sorted segments
+   [druid] 2018-12-02 22:09:19,463 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Down to the last merge-pass, with 1 segments left of total size: 4098 bytes
+   [druid] 2018-12-02 22:09:19,463 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 22:09:19,987 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 0%
+   [druid] 2018-12-02 22:09:20,729 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local222468383_0001_r_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 22:09:20,734 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - reduce > reduce
+   [druid] 2018-12-02 22:09:20,734 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local222468383_0001_r_000000_0' done.
+   [druid] 2018-12-02 22:09:20,738 [Thread-4       ] WARN  lib.output.FileOutputCommitter {1} - Output path is null in cleanup
+   [druid] 2018-12-02 22:09:20,987 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 100%
+   [druid] 2018-12-02 22:09:20,987 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Job complete: job_local222468383_0001
+   [druid] 2018-12-02 22:09:21,008 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Counters: 22
+   [druid] 2018-12-02 22:09:21,008 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   File System Counters
+   [druid] 2018-12-02 22:09:21,008 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes read=4466
+   [druid] 2018-12-02 22:09:21,009 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes written=378408
+   [druid] 2018-12-02 22:09:21,009 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of read operations=0
+   [druid] 2018-12-02 22:09:21,009 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of large read operations=0
+   [druid] 2018-12-02 22:09:21,009 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of write operations=0
+   [druid] 2018-12-02 22:09:21,009 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes read=499266
+   [druid] 2018-12-02 22:09:21,010 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes written=0
+   [druid] 2018-12-02 22:09:21,010 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of read operations=10
+   [druid] 2018-12-02 22:09:21,010 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of large read operations=0
+   [druid] 2018-12-02 22:09:21,010 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of write operations=0
+   [druid] 2018-12-02 22:09:21,011 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   Map-Reduce Framework
+   [druid] 2018-12-02 22:09:21,011 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map input records=549
+   [druid] 2018-12-02 22:09:21,011 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output records=32
+   [druid] 2018-12-02 22:09:21,011 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output bytes=4032
+   [druid] 2018-12-02 22:09:21,011 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Input split bytes=108
+   [druid] 2018-12-02 22:09:21,012 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine input records=0
+   [druid] 2018-12-02 22:09:21,012 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine output records=0
+   [druid] 2018-12-02 22:09:21,014 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input groups=2
+   [druid] 2018-12-02 22:09:21,015 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce shuffle bytes=0
+   [druid] 2018-12-02 22:09:21,016 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input records=32
+   [druid] 2018-12-02 22:09:21,016 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce output records=2
+   [druid] 2018-12-02 22:09:21,016 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Spilled Records=64
+   [druid] 2018-12-02 22:09:21,017 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Total committed heap usage (bytes)=434110464
+   [druid] 2018-12-02 22:22:40,789 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2018-12-02 22:22:40,791 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2018-12-02 22:22:40,816 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+   [druid] 2018-12-02 22:22:40,861 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+   [druid] 2018-12-02 22:22:40,964 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2018-12-02 22:22:41,291 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2018-12-02 22:22:41,301 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2018-12-02 22:22:41,292 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Running job: job_local623009995_0001
+   [druid] 2018-12-02 22:22:41,315 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2018-12-02 22:22:41,315 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local623009995_0001_m_000000_0
+   [druid] 2018-12-02 22:22:41,334 [pool-4-thread-1] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 22:22:41,354 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 22:22:41,364 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: hdfs://hadoop01:8020/ods/11/11/part-m-00000:0+249633
+   [druid] 2018-12-02 22:22:41,375 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2018-12-02 22:22:41,377 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - io.sort.mb = 100
+   [druid] 2018-12-02 22:22:41,436 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - data buffer = 79691776/99614720
+   [druid] 2018-12-02 22:22:41,437 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - record buffer = 262144/327680
+   [druid] 2018-12-02 22:22:42,309 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 0% reduce 0%
+   [druid] 2018-12-02 22:22:42,563 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 22:22:42,567 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2018-12-02 22:22:42,595 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Finished spill 0
+   [druid] 2018-12-02 22:22:42,601 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local623009995_0001_m_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 22:22:42,619 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 22:22:42,620 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local623009995_0001_m_000000_0' done.
+   [druid] 2018-12-02 22:22:42,620 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Finishing task: attempt_local623009995_0001_m_000000_0
+   [druid] 2018-12-02 22:22:42,621 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Map task executor complete.
+   [druid] 2018-12-02 22:22:42,626 [Thread-4       ] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 22:22:42,645 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 22:22:42,645 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 22:22:42,652 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Merging 1 sorted segments
+   [druid] 2018-12-02 22:22:42,659 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Down to the last merge-pass, with 1 segments left of total size: 4098 bytes
+   [druid] 2018-12-02 22:22:42,660 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 22:22:43,314 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 0%
+   [druid] 2018-12-02 22:22:43,936 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local623009995_0001_r_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 22:22:43,937 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - reduce > reduce
+   [druid] 2018-12-02 22:22:43,938 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local623009995_0001_r_000000_0' done.
+   [druid] 2018-12-02 22:22:43,941 [Thread-4       ] WARN  lib.output.FileOutputCommitter {1} - Output path is null in cleanup
+   [druid] 2018-12-02 22:22:44,315 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 100%
+   [druid] 2018-12-02 22:22:44,315 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Job complete: job_local623009995_0001
+   [druid] 2018-12-02 22:22:44,334 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Counters: 22
+   [druid] 2018-12-02 22:22:44,334 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   File System Counters
+   [druid] 2018-12-02 22:22:44,334 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes read=4466
+   [druid] 2018-12-02 22:22:44,334 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes written=378360
+   [druid] 2018-12-02 22:22:44,334 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of read operations=0
+   [druid] 2018-12-02 22:22:44,335 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of large read operations=0
+   [druid] 2018-12-02 22:22:44,335 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of write operations=0
+   [druid] 2018-12-02 22:22:44,335 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes read=499266
+   [druid] 2018-12-02 22:22:44,335 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes written=0
+   [druid] 2018-12-02 22:22:44,335 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of read operations=10
+   [druid] 2018-12-02 22:22:44,335 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of large read operations=0
+   [druid] 2018-12-02 22:22:44,336 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of write operations=0
+   [druid] 2018-12-02 22:22:44,336 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   Map-Reduce Framework
+   [druid] 2018-12-02 22:22:44,336 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map input records=549
+   [druid] 2018-12-02 22:22:44,336 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output records=32
+   [druid] 2018-12-02 22:22:44,336 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output bytes=4032
+   [druid] 2018-12-02 22:22:44,336 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Input split bytes=108
+   [druid] 2018-12-02 22:22:44,336 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine input records=0
+   [druid] 2018-12-02 22:22:44,336 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine output records=0
+   [druid] 2018-12-02 22:22:44,337 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input groups=2
+   [druid] 2018-12-02 22:22:44,337 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce shuffle bytes=0
+   [druid] 2018-12-02 22:22:44,337 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input records=32
+   [druid] 2018-12-02 22:22:44,337 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce output records=2
+   [druid] 2018-12-02 22:22:44,338 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Spilled Records=64
+   [druid] 2018-12-02 22:22:44,338 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Total committed heap usage (bytes)=436207616
+   [druid] 2018-12-02 23:06:14,262 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2018-12-02 23:06:14,264 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2018-12-02 23:06:14,291 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+   [druid] 2018-12-02 23:06:14,336 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+   [druid] 2018-12-02 23:06:14,510 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2018-12-02 23:06:15,186 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Running job: job_local278994997_0001
+   [druid] 2018-12-02 23:06:15,189 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2018-12-02 23:06:15,197 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2018-12-02 23:06:15,211 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2018-12-02 23:06:15,213 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local278994997_0001_m_000000_0
+   [druid] 2018-12-02 23:06:15,235 [pool-4-thread-1] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:06:15,255 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:06:15,261 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: hdfs://hadoop01:8020/ods/11/11/part-m-00000:0+249633
+   [druid] 2018-12-02 23:06:15,269 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2018-12-02 23:06:15,272 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - io.sort.mb = 100
+   [druid] 2018-12-02 23:06:15,331 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - data buffer = 79691776/99614720
+   [druid] 2018-12-02 23:06:15,331 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - record buffer = 262144/327680
+   [druid] 2018-12-02 23:06:16,152 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:06:16,157 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2018-12-02 23:06:16,179 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Finished spill 0
+   [druid] 2018-12-02 23:06:16,185 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local278994997_0001_m_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:06:16,189 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 0% reduce 0%
+   [druid] 2018-12-02 23:06:16,196 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:06:16,196 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local278994997_0001_m_000000_0' done.
+   [druid] 2018-12-02 23:06:16,196 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Finishing task: attempt_local278994997_0001_m_000000_0
+   [druid] 2018-12-02 23:06:16,197 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Map task executor complete.
+   [druid] 2018-12-02 23:06:16,200 [Thread-4       ] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:06:16,217 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:06:16,218 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:06:16,224 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Merging 1 sorted segments
+   [druid] 2018-12-02 23:06:16,230 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Down to the last merge-pass, with 1 segments left of total size: 4098 bytes
+   [druid] 2018-12-02 23:06:16,231 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:06:17,191 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 0%
+   [druid] 2018-12-02 23:06:17,524 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local278994997_0001_r_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:06:17,526 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - reduce > reduce
+   [druid] 2018-12-02 23:06:17,527 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local278994997_0001_r_000000_0' done.
+   [druid] 2018-12-02 23:06:17,532 [Thread-4       ] WARN  lib.output.FileOutputCommitter {1} - Output path is null in cleanup
+   [druid] 2018-12-02 23:06:18,191 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 100%
+   [druid] 2018-12-02 23:06:18,192 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Job complete: job_local278994997_0001
+   [druid] 2018-12-02 23:06:18,218 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Counters: 22
+   [druid] 2018-12-02 23:06:18,218 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   File System Counters
+   [druid] 2018-12-02 23:06:18,220 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes read=4466
+   [druid] 2018-12-02 23:06:18,220 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes written=378356
+   [druid] 2018-12-02 23:06:18,221 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of read operations=0
+   [druid] 2018-12-02 23:06:18,221 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of large read operations=0
+   [druid] 2018-12-02 23:06:18,221 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of write operations=0
+   [druid] 2018-12-02 23:06:18,222 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes read=499266
+   [druid] 2018-12-02 23:06:18,222 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes written=0
+   [druid] 2018-12-02 23:06:18,222 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of read operations=10
+   [druid] 2018-12-02 23:06:18,223 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of large read operations=0
+   [druid] 2018-12-02 23:06:18,223 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of write operations=0
+   [druid] 2018-12-02 23:06:18,223 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   Map-Reduce Framework
+   [druid] 2018-12-02 23:06:18,223 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map input records=549
+   [druid] 2018-12-02 23:06:18,223 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output records=32
+   [druid] 2018-12-02 23:06:18,224 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output bytes=4032
+   [druid] 2018-12-02 23:06:18,224 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Input split bytes=108
+   [druid] 2018-12-02 23:06:18,224 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine input records=0
+   [druid] 2018-12-02 23:06:18,224 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine output records=0
+   [druid] 2018-12-02 23:06:18,224 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input groups=2
+   [druid] 2018-12-02 23:06:18,225 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce shuffle bytes=0
+   [druid] 2018-12-02 23:06:18,225 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input records=32
+   [druid] 2018-12-02 23:06:18,226 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce output records=2
+   [druid] 2018-12-02 23:06:18,226 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Spilled Records=64
+   [druid] 2018-12-02 23:06:18,237 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Total committed heap usage (bytes)=439353344
+   [druid] 2018-12-02 23:07:40,195 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2018-12-02 23:07:40,197 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2018-12-02 23:07:40,225 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+   [druid] 2018-12-02 23:07:40,280 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+   [druid] 2018-12-02 23:07:40,422 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2018-12-02 23:07:40,881 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Running job: job_local1368143119_0001
+   [druid] 2018-12-02 23:07:40,884 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2018-12-02 23:07:40,889 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2018-12-02 23:07:40,902 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2018-12-02 23:07:40,902 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local1368143119_0001_m_000000_0
+   [druid] 2018-12-02 23:07:40,926 [pool-4-thread-1] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:07:40,948 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:07:40,958 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: hdfs://hadoop01:8020/ods/11/11/part-m-00000:0+249633
+   [druid] 2018-12-02 23:07:40,966 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2018-12-02 23:07:40,969 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - io.sort.mb = 100
+   [druid] 2018-12-02 23:07:41,020 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - data buffer = 79691776/99614720
+   [druid] 2018-12-02 23:07:41,020 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - record buffer = 262144/327680
+   [druid] 2018-12-02 23:07:41,549 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:07:41,553 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2018-12-02 23:07:41,575 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Finished spill 0
+   [druid] 2018-12-02 23:07:41,582 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local1368143119_0001_m_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:07:41,593 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:07:41,593 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local1368143119_0001_m_000000_0' done.
+   [druid] 2018-12-02 23:07:41,593 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Finishing task: attempt_local1368143119_0001_m_000000_0
+   [druid] 2018-12-02 23:07:41,594 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Map task executor complete.
+   [druid] 2018-12-02 23:07:41,599 [Thread-4       ] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:07:41,614 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:07:41,616 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:07:41,622 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Merging 1 sorted segments
+   [druid] 2018-12-02 23:07:41,631 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Down to the last merge-pass, with 1 segments left of total size: 4098 bytes
+   [druid] 2018-12-02 23:07:41,631 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:07:41,886 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 0%
+   [druid] 2018-12-02 23:07:42,928 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local1368143119_0001_r_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:07:42,929 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - reduce > reduce
+   [druid] 2018-12-02 23:07:42,929 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local1368143119_0001_r_000000_0' done.
+   [druid] 2018-12-02 23:07:42,935 [Thread-4       ] WARN  lib.output.FileOutputCommitter {1} - Output path is null in cleanup
+   [druid] 2018-12-02 23:07:43,891 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 100%
+   [druid] 2018-12-02 23:07:43,892 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Job complete: job_local1368143119_0001
+   [druid] 2018-12-02 23:07:43,920 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Counters: 22
+   [druid] 2018-12-02 23:07:43,920 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   File System Counters
+   [druid] 2018-12-02 23:07:43,921 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes read=4466
+   [druid] 2018-12-02 23:07:43,922 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes written=378364
+   [druid] 2018-12-02 23:07:43,923 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of read operations=0
+   [druid] 2018-12-02 23:07:43,923 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of large read operations=0
+   [druid] 2018-12-02 23:07:43,923 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of write operations=0
+   [druid] 2018-12-02 23:07:43,924 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes read=499266
+   [druid] 2018-12-02 23:07:43,924 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes written=0
+   [druid] 2018-12-02 23:07:43,924 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of read operations=10
+   [druid] 2018-12-02 23:07:43,925 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of large read operations=0
+   [druid] 2018-12-02 23:07:43,925 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of write operations=0
+   [druid] 2018-12-02 23:07:43,926 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   Map-Reduce Framework
+   [druid] 2018-12-02 23:07:43,926 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map input records=549
+   [druid] 2018-12-02 23:07:43,926 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output records=32
+   [druid] 2018-12-02 23:07:43,927 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output bytes=4032
+   [druid] 2018-12-02 23:07:43,927 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Input split bytes=108
+   [druid] 2018-12-02 23:07:43,927 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine input records=0
+   [druid] 2018-12-02 23:07:43,928 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine output records=0
+   [druid] 2018-12-02 23:07:43,928 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input groups=2
+   [druid] 2018-12-02 23:07:43,928 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce shuffle bytes=0
+   [druid] 2018-12-02 23:07:43,929 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input records=32
+   [druid] 2018-12-02 23:07:43,929 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce output records=2
+   [druid] 2018-12-02 23:07:43,929 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Spilled Records=64
+   [druid] 2018-12-02 23:07:43,930 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Total committed heap usage (bytes)=576716800
+   [druid] 2018-12-02 23:19:29,607 [main           ] WARN  g.analysis.mr.nu.NewUserRunner {1} - NEW_USER TO MYSQL is failed !!!
+   java.lang.ArrayIndexOutOfBoundsException: 2
+	at com.qianfeng.analysis.mr.nu.NewUserRunner.handleInputOutput(NewUserRunner.java:105)
+	at com.qianfeng.analysis.mr.nu.NewUserRunner.run(NewUserRunner.java:60)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at com.qianfeng.analysis.mr.nu.NewUserRunner.main(NewUserRunner.java:29)
+[druid] 2018-12-02 23:23:58,339 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2018-12-02 23:23:58,341 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2018-12-02 23:23:58,365 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+   [druid] 2018-12-02 23:23:58,419 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+   [druid] 2018-12-02 23:23:58,548 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2018-12-02 23:23:58,902 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2018-12-02 23:23:58,902 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Running job: job_local1941681636_0001
+   [druid] 2018-12-02 23:23:58,909 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2018-12-02 23:23:58,925 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2018-12-02 23:23:58,926 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local1941681636_0001_m_000000_0
+   [druid] 2018-12-02 23:23:58,952 [pool-4-thread-1] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:23:58,973 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:23:58,982 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: hdfs://hadoop01:8020/ods/11/11/part-m-00000:0+249633
+   [druid] 2018-12-02 23:23:58,991 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2018-12-02 23:23:58,993 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - io.sort.mb = 100
+   [druid] 2018-12-02 23:23:59,046 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - data buffer = 79691776/99614720
+   [druid] 2018-12-02 23:23:59,046 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - record buffer = 262144/327680
+   [druid] 2018-12-02 23:23:59,669 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:23:59,672 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2018-12-02 23:23:59,694 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Finished spill 0
+   [druid] 2018-12-02 23:23:59,700 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local1941681636_0001_m_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:23:59,710 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:23:59,711 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local1941681636_0001_m_000000_0' done.
+   [druid] 2018-12-02 23:23:59,711 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Finishing task: attempt_local1941681636_0001_m_000000_0
+   [druid] 2018-12-02 23:23:59,711 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Map task executor complete.
+   [druid] 2018-12-02 23:23:59,716 [Thread-4       ] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:23:59,734 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:23:59,736 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:23:59,743 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Merging 1 sorted segments
+   [druid] 2018-12-02 23:23:59,751 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Down to the last merge-pass, with 1 segments left of total size: 4098 bytes
+   [druid] 2018-12-02 23:23:59,751 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:23:59,909 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 0%
+   [druid] 2018-12-02 23:24:01,126 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local1941681636_0001_r_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:24:01,130 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - reduce > reduce
+   [druid] 2018-12-02 23:24:01,130 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local1941681636_0001_r_000000_0' done.
+   [druid] 2018-12-02 23:24:01,133 [Thread-4       ] WARN  lib.output.FileOutputCommitter {1} - Output path is null in cleanup
+   [druid] 2018-12-02 23:24:01,911 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 100%
+   [druid] 2018-12-02 23:24:01,912 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Job complete: job_local1941681636_0001
+   [druid] 2018-12-02 23:24:01,957 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Counters: 22
+   [druid] 2018-12-02 23:24:01,958 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   File System Counters
+   [druid] 2018-12-02 23:24:01,958 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes read=4466
+   [druid] 2018-12-02 23:24:01,958 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes written=378344
+   [druid] 2018-12-02 23:24:01,959 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of read operations=0
+   [druid] 2018-12-02 23:24:01,959 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of large read operations=0
+   [druid] 2018-12-02 23:24:01,960 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of write operations=0
+   [druid] 2018-12-02 23:24:01,960 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes read=499266
+   [druid] 2018-12-02 23:24:01,960 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes written=0
+   [druid] 2018-12-02 23:24:01,961 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of read operations=10
+   [druid] 2018-12-02 23:24:01,961 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of large read operations=0
+   [druid] 2018-12-02 23:24:01,962 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of write operations=0
+   [druid] 2018-12-02 23:24:01,963 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   Map-Reduce Framework
+   [druid] 2018-12-02 23:24:01,963 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map input records=549
+   [druid] 2018-12-02 23:24:01,963 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output records=32
+   [druid] 2018-12-02 23:24:01,964 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output bytes=4032
+   [druid] 2018-12-02 23:24:01,964 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Input split bytes=108
+   [druid] 2018-12-02 23:24:01,964 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine input records=0
+   [druid] 2018-12-02 23:24:01,965 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine output records=0
+   [druid] 2018-12-02 23:24:01,965 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input groups=2
+   [druid] 2018-12-02 23:24:01,965 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce shuffle bytes=0
+   [druid] 2018-12-02 23:24:01,966 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input records=32
+   [druid] 2018-12-02 23:24:01,966 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce output records=2
+   [druid] 2018-12-02 23:24:01,966 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Spilled Records=64
+   [druid] 2018-12-02 23:24:01,967 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Total committed heap usage (bytes)=489160704
+   [druid] 2018-12-02 23:34:07,073 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2018-12-02 23:34:07,075 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2018-12-02 23:34:07,148 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+   [druid] 2018-12-02 23:34:07,320 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2018-12-02 23:34:07,638 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Running job: job_local485838899_0001
+   [druid] 2018-12-02 23:34:07,645 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2018-12-02 23:34:07,650 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2018-12-02 23:34:07,812 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2018-12-02 23:34:07,814 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local485838899_0001_m_000000_0
+   [druid] 2018-12-02 23:34:07,832 [pool-4-thread-1] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:34:07,864 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:34:07,869 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: hdfs://hadoop01:8020/logs/11/11/2018-11-11.log:0+14734
+   [druid] 2018-12-02 23:34:08,646 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 0% reduce 0%
+   [druid] 2018-12-02 23:34:08,938 [pool-4-thread-1] INFO  com.qianfeng.etl.mr.MapperDemo {1} - 输入：45过滤：0输出：656
+   [druid] 2018-12-02 23:34:08,938 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:34:09,491 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local485838899_0001_m_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:34:09,526 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:34:09,526 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task attempt_local485838899_0001_m_000000_0 is allowed to commit now
+   [druid] 2018-12-02 23:34:09,678 [pool-4-thread-1] INFO  lib.output.FileOutputCommitter {1} - Saved output of task 'attempt_local485838899_0001_m_000000_0' to /ods/11/11
+   [druid] 2018-12-02 23:34:09,678 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:34:09,678 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local485838899_0001_m_000000_0' done.
+   [druid] 2018-12-02 23:34:09,681 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Finishing task: attempt_local485838899_0001_m_000000_0
+   [druid] 2018-12-02 23:34:09,681 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Map task executor complete.
+   [druid] 2018-12-02 23:34:10,648 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 0%
+   [druid] 2018-12-02 23:34:10,651 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Job complete: job_local485838899_0001
+   [druid] 2018-12-02 23:34:10,686 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Counters: 15
+   [druid] 2018-12-02 23:34:10,688 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   File System Counters
+   [druid] 2018-12-02 23:34:10,688 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes read=184
+   [druid] 2018-12-02 23:34:10,688 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes written=167372
+   [druid] 2018-12-02 23:34:10,688 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of read operations=0
+   [druid] 2018-12-02 23:34:10,688 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of large read operations=0
+   [druid] 2018-12-02 23:34:10,688 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of write operations=0
+   [druid] 2018-12-02 23:34:10,691 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes read=14734
+   [druid] 2018-12-02 23:34:10,691 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes written=317956
+   [druid] 2018-12-02 23:34:10,691 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of read operations=7
+   [druid] 2018-12-02 23:34:10,691 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of large read operations=0
+   [druid] 2018-12-02 23:34:10,691 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of write operations=2
+   [druid] 2018-12-02 23:34:10,693 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   Map-Reduce Framework
+   [druid] 2018-12-02 23:34:10,693 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map input records=45
+   [druid] 2018-12-02 23:34:10,693 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output records=656
+   [druid] 2018-12-02 23:34:10,693 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Input split bytes=111
+   [druid] 2018-12-02 23:34:10,693 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Spilled Records=0
+   [druid] 2018-12-02 23:34:10,693 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Total committed heap usage (bytes)=118489088
+   [druid] 2018-12-02 23:36:22,839 [main           ] INFO  conf.Configuration.deprecation {1} - session.id is deprecated. Instead, use dfs.metrics.session-id
+   [druid] 2018-12-02 23:36:22,842 [main           ] INFO  .hadoop.metrics.jvm.JvmMetrics {1} - Initializing JVM Metrics with processName=JobTracker, sessionId=
+   [druid] 2018-12-02 23:36:22,867 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+   [druid] 2018-12-02 23:36:22,914 [main           ] WARN  apache.hadoop.mapred.JobClient {1} - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+   [druid] 2018-12-02 23:36:23,044 [main           ] INFO  duce.lib.input.FileInputFormat {1} - Total input paths to process : 1
+   [druid] 2018-12-02 23:36:23,359 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Running job: job_local2122281078_0001
+   [druid] 2018-12-02 23:36:23,359 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter set in config null
+   [druid] 2018-12-02 23:36:23,367 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+   [druid] 2018-12-02 23:36:23,377 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Waiting for map tasks
+   [druid] 2018-12-02 23:36:23,377 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Starting task: attempt_local2122281078_0001_m_000000_0
+   [druid] 2018-12-02 23:36:23,402 [pool-4-thread-1] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:36:23,429 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:36:23,434 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Processing split: hdfs://hadoop01:8020/ods/11/11/part-m-00000:0+317956
+   [druid] 2018-12-02 23:36:23,444 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+   [druid] 2018-12-02 23:36:23,447 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - io.sort.mb = 100
+   [druid] 2018-12-02 23:36:23,502 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - data buffer = 79691776/99614720
+   [druid] 2018-12-02 23:36:23,502 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - record buffer = 262144/327680
+   [druid] 2018-12-02 23:36:24,045 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:36:24,050 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Starting flush of map output
+   [druid] 2018-12-02 23:36:24,075 [pool-4-thread-1] INFO  g.apache.hadoop.mapred.MapTask {1} - Finished spill 0
+   [druid] 2018-12-02 23:36:24,082 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local2122281078_0001_m_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:36:24,092 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:36:24,095 [pool-4-thread-1] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local2122281078_0001_m_000000_0' done.
+   [druid] 2018-12-02 23:36:24,095 [pool-4-thread-1] INFO  e.hadoop.mapred.LocalJobRunner {1} - Finishing task: attempt_local2122281078_0001_m_000000_0
+   [druid] 2018-12-02 23:36:24,095 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - Map task executor complete.
+   [druid] 2018-12-02 23:36:24,100 [Thread-4       ] WARN  mapreduce.Counters             {1} - Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+   [druid] 2018-12-02 23:36:24,112 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} -  Using ResourceCalculatorPlugin : null
+   [druid] 2018-12-02 23:36:24,112 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:36:24,120 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Merging 1 sorted segments
+   [druid] 2018-12-02 23:36:24,127 [Thread-4       ] INFO  rg.apache.hadoop.mapred.Merger {1} - Down to the last merge-pass, with 1 segments left of total size: 15874 bytes
+   [druid] 2018-12-02 23:36:24,127 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - 
+   [druid] 2018-12-02 23:36:24,360 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 0%
+   [druid] 2018-12-02 23:36:25,430 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task:attempt_local2122281078_0001_r_000000_0 is done. And is in the process of commiting
+   [druid] 2018-12-02 23:36:25,432 [Thread-4       ] INFO  e.hadoop.mapred.LocalJobRunner {1} - reduce > reduce
+   [druid] 2018-12-02 23:36:25,432 [Thread-4       ] INFO  org.apache.hadoop.mapred.Task  {1} - Task 'attempt_local2122281078_0001_r_000000_0' done.
+   [druid] 2018-12-02 23:36:25,435 [Thread-4       ] WARN  lib.output.FileOutputCommitter {1} - Output path is null in cleanup
+   [druid] 2018-12-02 23:36:26,392 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -  map 100% reduce 100%
+   [druid] 2018-12-02 23:36:26,395 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Job complete: job_local2122281078_0001
+   [druid] 2018-12-02 23:36:26,427 [main           ] INFO  apache.hadoop.mapred.JobClient {1} - Counters: 22
+   [druid] 2018-12-02 23:36:26,427 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   File System Counters
+   [druid] 2018-12-02 23:36:26,427 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes read=16242
+   [druid] 2018-12-02 23:36:26,427 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of bytes written=401896
+   [druid] 2018-12-02 23:36:26,427 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of read operations=0
+   [druid] 2018-12-02 23:36:26,427 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of large read operations=0
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     FILE: Number of write operations=0
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes read=635912
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of bytes written=0
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of read operations=10
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of large read operations=0
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     HDFS: Number of write operations=0
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -   Map-Reduce Framework
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map input records=656
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output records=124
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Map output bytes=15624
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Input split bytes=108
+   [druid] 2018-12-02 23:36:26,430 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine input records=0
+   [druid] 2018-12-02 23:36:26,432 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Combine output records=0
+   [druid] 2018-12-02 23:36:26,432 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input groups=2
+   [druid] 2018-12-02 23:36:26,432 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce shuffle bytes=0
+   [druid] 2018-12-02 23:36:26,432 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce input records=124
+   [druid] 2018-12-02 23:36:26,432 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Reduce output records=2
+   [druid] 2018-12-02 23:36:26,432 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Spilled Records=248
+   [druid] 2018-12-02 23:36:26,432 [main           ] INFO  apache.hadoop.mapred.JobClient {1} -     Total committed heap usage (bytes)=486539264
+   

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property>
+        <name>writter_new_user</name>
+        <value>com.qianfeng.analysis.mr.nu.NewUserOutputWriter</value>
+    </property>
+    <property>
+        <name>writter_browser_new_user</name>
+        <value>com.qianfeng.analysis.mr.nu.NewUserOutputWriter</value>
+    </property>
+    <property>
+        <name>writter_active_user</name>
+        <value>com.qianfeng.analysis.mr.au.ActiveUserOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writter_browser_active_user</name>
+        <value>com.qianfeng.analysis.mr.au.ActiveUserOutputWriter</value>
+    </property>
+
+    <property>
+    <name>writter_active_member</name>
+    <value>com.qianfeng.analysis.mr.am.ActiveMemberOutputWriter</value>
+</property>
+
+    <property>
+        <name>writter_browser_active_member</name>
+        <value>com.qianfeng.analysis.mr.am.ActiveMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writter_new_member</name>
+        <value>com.qianfeng.analysis.mr.nm.NewMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writter_browser_new_member</name>
+        <value>com.qianfeng.analysis.mr.nm.NewMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writter_member_info</name>
+        <value>com.qianfeng.analysis.mr.nm.NewMemberOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writter_session</name>
+        <value>com.qianfeng.analysis.mr.session.SessionOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writter_browser_session</name>
+        <value>com.qianfeng.analysis.mr.session.SessionOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writter_hourly_active_user</name>
+        <value>com.qianfeng.analysis.mr.ha.HourlyActiveUserOutputWriter</value>
+    </property>
+
+    <property>
+        <name>writter_local</name>
+        <value>com.qianfeng.analysis.mr.local.LocalOutPutWriter</value>
+    </property>
+
+</configuration>

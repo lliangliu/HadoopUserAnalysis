@@ -1,0 +1,12 @@
+[druid] 2018-11-29 23:52:47,346 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 0 time(s); maxRetries=45
+   [druid] 2018-11-29 23:53:07,395 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 1 time(s); maxRetries=45
+   [druid] 2018-11-29 23:53:27,397 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 2 time(s); maxRetries=45
+   [druid] 2018-11-29 23:53:47,402 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 3 time(s); maxRetries=45
+   [druid] 2018-11-29 23:54:07,405 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 4 time(s); maxRetries=45
+   [druid] 2018-11-29 23:54:27,408 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 5 time(s); maxRetries=45
+   [druid] 2018-11-29 23:54:47,412 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 6 time(s); maxRetries=45
+   [druid] 2018-11-29 23:55:07,423 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 7 time(s); maxRetries=45
+   [druid] 2018-11-29 23:55:27,431 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 8 time(s); maxRetries=45
+   [druid] 2018-11-29 23:55:47,436 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 9 time(s); maxRetries=45
+   [druid] 2018-11-29 23:56:07,437 [main           ] INFO  org.apache.hadoop.ipc.Client   {1} - Retrying connect to server: hadoop01/192.168.8.66:8020. Already tried 10 time(s); maxRetries=45
+   
